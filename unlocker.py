@@ -39,7 +39,7 @@ if len(files) > 0:
         rw_fh.close()
         # Remove old file
         os.remove(file)
-        print("Encrypted: " + newFileName)
+        print("Decrypted: " + newFileName)
     mymessage = "Your files are decrypted, have a nice day."
     print(mymessage)
     os.remove('!evil_message.txt')
