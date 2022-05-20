@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Author raresteak
-# unlocker.py encrpts files
+# locker.py encrpts files
 # this script is for experimentation only
 # USE AT YOUR OWN RISK
 import os
