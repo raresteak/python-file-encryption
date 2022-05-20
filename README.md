@@ -20,7 +20,7 @@ Execute locker.py to encrypt files.   This will encrypt files in the same direct
 Execute unlocker.py to decrypt files.  
 
 ```
-./unlocker
+./unlocker.py
 ```
 
 # Disclaimer
