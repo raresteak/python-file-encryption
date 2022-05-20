@@ -47,20 +47,20 @@ Execute unlocker.py to decrypt files.
 
 ## Output
 ```
-$ ./locker.py 
-Encrypting: spreadsheet1.ods
-Encrypted: spreadsheet1.ods.encrypted
-Encrypting: file2.txt
-Encrypted: file2.txt.encrypted
-Encrypting: spreadsheet2.xlsx
-Encrypted: spreadsheet2.xlsx.encrypted
-Encrypting: file1.txt
-Encrypted: file1.txt.encrypted
-Encrypting: document1.odt
-Encrypted: document1.odt.encrypted
-Encrypting: document2.docx
-Encrypted: document2.docx.encrypted
-Your files are encrypted, have a nice day.
+$ ./unlocker.py 
+Decrypting: document2.docx.encrypted
+Encrypted: document2.docx
+Decrypting: file1.txt.encrypted
+Encrypted: file1.txt
+Decrypting: file2.txt.encrypted
+Encrypted: file2.txt
+Decrypting: spreadsheet1.ods.encrypted
+Encrypted: spreadsheet1.ods
+Decrypting: spreadsheet2.xlsx.encrypted
+Encrypted: spreadsheet2.xlsx
+Decrypting: document1.odt.encrypted
+Encrypted: document1.odt
+Your files are decrypted, have a nice day.
 ```
 
 
