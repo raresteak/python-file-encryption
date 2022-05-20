@@ -34,7 +34,7 @@ Encrypted: document2.docx.encrypted
 Your files are encrypted, have a nice day.
 ```
 
-Encrypt key written to 
+Encryption key written to 
 ```
 .key
 ```
