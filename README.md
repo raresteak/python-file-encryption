@@ -20,7 +20,7 @@ Clone Repo.
 git clone https://github.com/raresteak/python-file-encryption.git
 ```
 
-Execute locker.py to encrypt files.   This will encrypt files in the same directory.
+Execute locker.py to encrypt the demo files from the repository.   This will encrypt files in the same directory.
 
 ```
 ./locker.py
