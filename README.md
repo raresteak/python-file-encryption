@@ -2,6 +2,15 @@
 
 This is an educational script written in Python to demonstrate encrypting and decrypting files in a directory, acting like ransomware.    
 
+The locker.py script performs two operations in the current working directory only (does not recurse sub-directories):
+
+1. encryptes each file's contents
+
+2. adds a second file extension, .encrypted. 
+
+
+The unlocker.py script restores the files to their unencrypted form. 
+
 
 # Usage
 
